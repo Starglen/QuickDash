@@ -1,0 +1,33 @@
+form {
+    container: inherit;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px grey;
+    width: 25%;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+input{
+    width: 450px;
+}
+
+select{
+    width: 450px;
+}
+
+button{
+    width: 450px;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    height: 30px;
+
+}
+button:hover{
+    background-color: #f5dd5d;
+}
+
+h2{
+    color: green;
+}

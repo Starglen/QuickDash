@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'css/index.css' %}">
+
+     <link rel="icon" href=" {% static 'assets/fav2.png' %}">
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+            line-height: 80px;
+        }
+       h1:hover{
+           background-color: #81d4fa;
+       }
+    </style>
+</head>
+<body>
+
+<a href="{% url 'about' %}">About</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+<a href="{% url 'form' %}">Form</a>
+
+<h1>QuickDash App</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda commodi corporis dignissimos dolor dolore doloremque earum eius enim expedita ipsam itaque labore laudantium nisi quas quia quibusdam rerum, saepe.</span><span>Consequuntur delectus ducimus eius id inventore labore libero magnam perferendis provident quos! A deserunt dolor excepturi illo inventore mollitia placeat possimus quibusdam velit! Commodi consectetur deserunt expedita necessitatibus neque quam.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam commodi dolor dolores, excepturi harum illum iusto neque provident quasi similique totam, voluptatem voluptates. Consequatur dicta et quia rem sapiente.</span><span>Adipisci doloremque ea eligendi neque veniam. Alias assumenda blanditiis commodi debitis deleniti dicta enim et eveniet exercitationem fugit labore necessitatibus, neque numquam optio, pariatur repellat sed, sequi. Consequatur, deserunt, soluta.</span><span>Adipisci aliquid aperiam blanditiis cum debitis fuga fugit in iusto labore libero necessitatibus nemo nobis odio odit officia perspiciatis provident quisquam quo ratione, repudiandae soluta tenetur ullam vero voluptate voluptatum.</span></p>
+
+<img src="{% static 'assets/img_5.png' %}" alt="">
+<img src="{% static 'assets/img_6.png' %}" alt="">
+
+
+</body>
+</html>

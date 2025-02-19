@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 80px;
+}
+
+#main{
+    display: flex;
+}
+
+.image{
+       height: 250px;
+    margin: 5px;
+
+}
+
+.mydiv{
+    margin-right: 20px;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #4ac1f7;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#one{
+    background-color: #f5dd5d;
+}
+
+#two{
+    background-color: #2be234;
+}
+
+#three{
+    background-color: gold;
+}

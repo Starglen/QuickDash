@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Page</title>
+
+    {% load static %}
+
+     <link rel="icon" href=" {% static 'assets/fav3.png' %}">
+     <link rel="stylesheet" href=" {% static 'css/about.css' %}">
+
+</head>
+<body>
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'gallery' %}">Gallery</a>
+<a href="{% url 'form' %}">Form</a>
+
+<h1>Additional information about Quickdash</h1>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem ipsa saepe. Ad beatae cumque cupiditate doloremque doloribus ea itaque, laudantium nemo odio omnis, quo ullam voluptas! Ad porro, voluptatum!</span><span>Fuga in inventore similique. Amet aut cum debitis doloremque est harum ullam. Accusantium aliquid animi asperiores consequuntur dolorum harum iusto laboriosam nam, neque nobis provident quos sequi tempore tenetur unde!</span></p>
+
+<h2>Why choose us?</h2>
+
+<div id="main">
+    <div class="mydiv" id="one">
+        <img src="{% static 'assets/w1.png' %}" alt="" class = "image">
+        <h3>Watch1</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, architecto at, autem cupiditate dignissimos doloremque earum esse, excepturi impedit minus natus repellendus. Aut corporis fugit ipsam labore minus nam quos?</span><span>Asperiores commodi, dolorem esse hic incidunt iusto laboriosam maxime modi, nemo obcaecati quia quis ratione recusandae rem repellendus sit suscipit voluptatibus. Autem doloribus porro, quia reiciendis sed similique sit unde?</span></p>
+        <button>More</button>
+    </div>
+
+    <div class="mydiv" id="two">
+        <img src="{% static 'assets/w2.png' %}" alt="" class = "image">
+        <h3>Watch2</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, architecto at, autem cupiditate dignissimos doloremque earum esse, excepturi impedit minus natus repellendus. Aut corporis fugit ipsam labore minus nam quos?</span><span>Asperiores commodi, dolorem esse hic incidunt iusto laboriosam maxime modi, nemo obcaecati quia quis ratione recusandae rem repellendus sit suscipit voluptatibus. Autem doloribus porro, quia reiciendis sed similique sit unde?</span></p>
+        <button>More</button>
+    </div>
+
+    <div class="mydiv" id="three">
+        <img src="{% static 'assets/w3.png' %}" alt="" class = "image">
+        <h3>Watch3</h3>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, architecto at, autem cupiditate dignissimos doloremque earum esse, excepturi impedit minus natus repellendus. Aut corporis fugit ipsam labore minus nam quos?</span><span>Asperiores commodi, dolorem esse hic incidunt iusto laboriosam maxime modi, nemo obcaecati quia quis ratione recusandae rem repellendus sit suscipit voluptatibus. Autem doloribus porro, quia reiciendis sed similique sit unde?</span></p>
+        <button>More</button>
+    </div>
+
+</div>
+
+
+</body>
+</html>
