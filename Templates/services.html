@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Services</title>
+
+    {% load static %}
+    <link rel="stylesheet" href=" {% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script scr="{% static 'bootstrap/css/bootstrap.min.js' %}"></script>
+
+</head>
+<body>
+<h1 class="text-center mb-5">Our services</h1>
+
+<div class=" container d-flex text-center">
+
+
+        <div class="card card-body container shadow">
+        <img src="{% static 'assets/img_12.png' %}" alt="" class="w-100">
+        <h2>Design</h2>
+        <p>Deliver the best user experience with our <br> carefully designed responsive websites and <br> applications!</p>
+
+            <div class="card-footer">
+            <button class="btn btn-outline-danger">See portfolio>> </button>
+
+    </div>
+
+    </div>
+
+    <div class="card card-body container ms-3 shadow">
+
+        <img src="{% static 'assets/img_11.png' %}" alt="" class="w-100">
+        <h2>Development</h2>
+        <p> You need a software that works on every <br> device. Leverage the latest technologies <br> and most powerful tools!</p>
+
+
+        <div class="card-footer">
+             <button class="btn btn-outline-danger">See project>> </button>
+        </div>
+
+    </div>
+
+    <div class="card card-body container ms-3 shadow">
+        <img src="{% static 'assets/img_10.png' %}" alt="" class="w-100">
+        <h2>Analytics</h2>
+        <p>Consult our experts to set up proper goals <br> and find the best stack for your next <br> application!</p>
+
+
+        <div class="card-footer">
+             <button class="btn btn-outline-danger">See testimonials>> </button>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
